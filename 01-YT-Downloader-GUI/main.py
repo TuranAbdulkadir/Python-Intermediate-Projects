@@ -17,7 +17,7 @@ root.geometry("500x300")
 root.title("YouTube Downloader")
 
 ctk.CTkLabel(root, text="YouTube Video Downloader", font=("Arial", 20)).pack(pady=20)
-entry = ctk.CTkEntry(root, width=350, placeholder_text="Paste Link Here")
+entry = ctk.CTkEntry(root, width=350, placeholder_text="Enter YouTube Video URL")
 entry.pack(pady=10)
 ctk.CTkButton(root, text="Download", command=download).pack(pady=20)
 status = ctk.CTkLabel(root, text="")
